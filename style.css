@@ -1,17 +1,24 @@
 body{
     background-color: royalblue;
 }
-#txt{
+h1{
     color: rgb(90, 216, 40);
     display: flex;
     justify-content: center;
     align-items: center;
+}
+h3{
+    color: rgb(90, 216, 40);
+    margin: 15% auto;
+    padding: 20px;
+    width: 25%;
 }
 #btn{
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 #newProduct{
     display: flex;
     justify-content: center;
@@ -45,14 +52,14 @@ input#name{
     background-color: rgba(0, 0, 0, 0.2);
     font-size: 30px;
 }
-
-
-
-
-
-
-
-
-
-
-
+input#amount{
+    justify-content: center;
+    align-items: center;
+    width: 132px;
+    height: 34px;
+}
+#List {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
